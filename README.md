@@ -1,13 +1,13 @@
 # zkCP prototype
 
-Zero-Knowledge Contingent Payment (zkCP) is a propotype tool associated to the paper
+Zero-Knowledge Contingent Payment (zkCP) is a prototype tool associated to the paper
 [*"WI is Almost Enough: Contingent (Service) Payment All Over Again"*](https://dl.acm.org/doi/10.1145/3372297.3417888).
 
 
 ## Installation
 
 *0*. Install required packages such as:
-    cmake, git, build-essential, libssl-dev, libgmp-dev, libboost-all-dev
+    cmake, git, build-essential, libssl-dev, libgmp-dev, libboost-all-dev.
 
 *1*. Install the [EMP Toolkit](https://github.com/emp-toolkit/emp-readme).
      You can install it by running `make get-emp-toolkit`.
@@ -21,7 +21,7 @@ Our code is compatible with the libraries at the date of May 1st 2020.
 If you have installed them on your own and have any problems compiling our tool,
 you can try to get a version of the libraries close to this date.
 
-We have verified our tool using verion 9.3.0 of gcc and g++, running on Ubuntu 20.04.
+We have verified our tool using version 9.3.0 of gcc and g++, running on Ubuntu 20.04.
 
 
 ## What is this tool for?
