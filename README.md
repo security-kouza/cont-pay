@@ -21,7 +21,7 @@ Our code is compatible with the libraries at the date of May 1st 2020.
 If you have installed them on your own and have any problems compiling our tool,
 you can try to get a version of the libraries close to this date.
 
-We have verified our tool using version 9.3.0 of gcc and g++, running on Ubuntu 20.04.
+We have tested our tool using version 9.3.0 of gcc and g++, running on Ubuntu 20.04.
 
 
 ## What is this tool for?
@@ -78,7 +78,7 @@ the secret is valid.
 a Schnorr proof of knowledge of a dlog, we refer to our
 [paper](https://dl.acm.org/doi/10.1145/3372297.3417888) for more details.)
 
-> With this tool, we provide a Boolean circuit describing the above decryption function based on OTP
+> :warning: With this tool, we provide a Boolean circuit describing the above decryption function based on OTP
 (*data/XOR_SHA.txt*). If the secret is longer than 256-bits, you may need to define your
 own circuit. In our paper, for the experiments about RSA signatures (where secrets are 2048
 or even 4096 bits long), we used a circuit
